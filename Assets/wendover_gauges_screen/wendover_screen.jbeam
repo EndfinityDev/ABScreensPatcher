@@ -1,0 +1,16 @@
+{
+"wendover_gaugecluster": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Gauge Cluster",
+        "value":600,
+    },
+    "slotType" : "wendover_gaugecluster",
+
+    "controller": [
+        ["fileName"],
+        ["wendoverGauges", {"name":"gauge", "materialName": "@wendover_gauges_screen", "htmlPath": "local://local/vehicles/REPLACEVEHICLE/wendover_gauges_screen/gauges_screen.html"}],
+    ],
+
+},
+}
