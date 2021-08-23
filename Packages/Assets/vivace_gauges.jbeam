@@ -1,0 +1,137 @@
+{
+"vivace_gauges_basic": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Basic",
+        "value":200,
+    },
+    "slotType" : "vivace_gauges",
+    "slots":[
+        ["type", "default", "description"],
+        ["vivace_gauges_max_speed","vivace_gauges_max_speed260", "Speedo scale", {"coreSlot":true}],
+        ["vivace_gauges_max_rpm","vivace_gauges_max_rpm8", "Tacho scale", {"coreSlot":true}],
+    ],
+    "controller": [
+        ["fileName"],
+        ["vivaceGauges", {"name":"gauge", "materialName": "@vivace_gauges_screen", "htmlPath": "local://local/vehicles/REPLACEVEHICLE/vivace_gauges_screen/gauges_screen_basic.html"}],
+    ],
+},
+
+"vivace_gauges_E": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Electrique",
+        "value":200,
+    },
+    "slotType" : "vivace_gauges",
+    "slots":[
+        ["type", "default", "description"],
+        ["vivace_gauges_max_speed","vivace_gauges_max_speed260", "Speedo scale", {"coreSlot":true}],
+    ],
+    "controller": [
+        ["fileName"],
+        ["vivaceGauges", {"name":"gauge", "materialName": "@vivace_gauges_screen", "htmlPath": "local://local/vehicles/REPLACEVEHICLE/vivace_gauges_screen/gauges_screen_e.html"}],
+    ],
+},
+"vivace_gauges_max_speed180": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"180kph/110mph",
+        "value":1,
+    },
+    "slotType" : "vivace_gauges_max_speed",
+    "gauge": {
+        "max_kph": 180,
+        "speedo_metric_sep_big":20,
+        "speedo_metric_sep_small":10,
+        "max_mph": 110,
+        "speedo_imp_sep_big":10,
+        "speedo_imp_sep_small":5,
+    }
+},
+"vivace_gauges_max_speed220": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"220kph/140mph",
+        "value":1,
+    },
+    "slotType" : "vivace_gauges_max_speed",
+    "gauge": {
+        "max_kph": 220,
+        "speedo_metric_sep_big":20,
+        "speedo_metric_sep_small":20,
+        "max_mph": 140,
+        "speedo_imp_sep_big":20,
+        "speedo_imp_sep_small":10,
+    }
+},
+"vivace_gauges_max_speed260": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"260kph/160mph",
+        "value":1,
+    },
+    "slotType" : "vivace_gauges_max_speed",
+    "gauge": {
+        "max_kph": 260,
+        "speedo_metric_sep_big":20,
+        "speedo_metric_sep_small":20,
+        "max_mph": 160,
+        "speedo_imp_sep_big":20,
+        "speedo_imp_sep_small":20,
+    }
+},
+"vivace_gauges_max_speed320": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"320kph/200mph",
+        "value":1,
+    },
+    "slotType" : "vivace_gauges_max_speed",
+    "gauge": {
+        "max_kph": 320,
+        "speedo_metric_sep_big":40,
+        "speedo_metric_sep_small":20,
+        "max_mph": 200,
+        "speedo_imp_sep_big":20,
+        "speedo_imp_sep_small":20,
+    }
+},
+
+"vivace_gauges_max_rpm5": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"5000",
+        "value":1,
+    },
+    "slotType" : "vivace_gauges_max_rpm",
+    "gauge": {
+        "max_rpm": 5000,
+        "red_rpm": 4500,
+    }
+},
+"vivace_gauges_max_rpm7": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"7000",
+        "value":1,
+    },
+    "slotType" : "vivace_gauges_max_rpm",
+    "gauge": {
+        "max_rpm": 7000,
+        "red_rpm": 6100,
+    }
+},"vivace_gauges_max_rpm8": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"8000",
+        "value":1,
+    },
+    "slotType" : "vivace_gauges_max_rpm",
+    "gauge": {
+        "max_rpm": 8000,
+        "red_rpm": 6500,
+    }
+},
+
+}
