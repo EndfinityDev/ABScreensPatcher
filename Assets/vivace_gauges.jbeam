@@ -17,6 +17,50 @@
     ],
 },
 
+"vivace_gauges_max_speed_custom": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Custom",
+        "value":1,
+    },
+	"variables": [
+        ["name", "type", "unit", "category", "default", "min", "max", "title", "description"],
+        ["$max_kph", "range", "KPH", "Vivace Screen", 180, 0, 700, "Max Screen KPH", "Adjusts the screen's max KPH",{"subCategory":"Metric"}],
+		["$max_mph", "range", "MPH", "Vivace Screen", 110, 0, 700, "Max Screen MPH", "Adjusts the screen's max MPH",{"subCategory":"Imperial"}],
+		["$metric_sep_big", "range", "", "Vivace Screen", 20, 0, 100, "speedo_metric_sep_big", "speedo_metric_sep_big",{"subCategory":"Metric"}],
+		["$metric_sep_small", "range", "", "Vivace Screen", 10, 0, 100, "speedo_metric_sep_small", "speedo_metric_sep_small",{"subCategory":"Metric"}],
+		["$imp_sep_small", "range", "", "Vivace Screen", 5, 0, 100, "speedo_imperial_sep_small", "speedo_imp_sep_small",{"subCategory":"Imperial"}],
+		["$imp_sep_big", "range", "", "Vivace Screen", 10, 0, 100, "speedo_imperial_sep_big", "speedo_imp_sep_big",{"subCategory":"Imperial"}],
+	]
+    "slotType" : "vivace_gauges_max_speed",
+    "gauge": {
+        "max_kph": "$max_kph",
+        "speedo_metric_sep_big":"$metric_sep_big",
+        "speedo_metric_sep_small":"$metric_sep_small",
+        "max_mph": "$max_mph",
+        "speedo_imp_sep_big":"$imp_sep_big",
+        "speedo_imp_sep_small":"$imp_sep_small",
+    }
+},
+
+"vivace_gauges_max_rpm_custom": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Custom",
+        "value":1,
+    },
+	"variables": [
+        ["name", "type", "unit", "category", "default", "min", "max", "title", "description"],
+        ["$max_rpm", "range", "RPM", "Vivace Screen", 5000, 0, 20000, "Max RPM", "Adjusts the screen's max RPM"],
+		["$red_rpm", "range", "RPM", "Vivace Screen", 4500, 0, 20000, "Redline RPM", "Adjusts the screen's redline RPM"],
+	]
+    "slotType" : "vivace_gauges_max_rpm",
+    "gauge": {
+        "max_rpm": "$max_rpm",
+        "red_rpm": "$red_rpm",
+    }
+},
+
 "vivace_gauges_E": {
     "information":{
         "authors":"BeamNG",
